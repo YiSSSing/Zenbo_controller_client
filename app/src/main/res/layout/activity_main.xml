@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:id = "@+id/big_title"
+        android:text = "@string/big_title"
+        android:gravity= "center"
+        android:textSize = "@dimen/bigTitleTsize"
+        android:padding = "@dimen/bigTitlePadding" />
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="@dimen/p1_name_width"
+        android:id = "@+id/p1_zenboName"
+        android:textSize = "@dimen/p1_tsize"
+        android:padding = "@dimen/p1_padding"
+        android:text = "@string/p1_zenboName_text"
+        android:layout_below = "@id/big_title"
+        android:gravity = "center"/>
+
+    <EditText
+        android:layout_height = "wrap_content"
+        android:layout_width = "match_parent"
+        android:id = "@+id/edit_zenboName"
+        android:inputType = "text"
+        android:layout_toRightOf = "@id/p1_zenboName"
+        android:layout_below = "@id/big_title"
+        android:hint = "@string/editZenboName_hint"
+        android:textSize = "@dimen/p1_tsize"
+        android:padding = "@dimen/p1_padding" />
+
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="@dimen/p1_name_width"
+        android:id = "@+id/p1_zenboPort"
+        android:textSize = "@dimen/p1_tsize"
+        android:padding = "@dimen/p1_padding"
+        android:text = "@string/p1_zenboPort_text"
+        android:layout_below = "@id/p1_zenboName"
+        android:gravity = "center"/>
+
+    <EditText
+        android:layout_height = "wrap_content"
+        android:layout_width = "match_parent"
+        android:id = "@+id/edit_zenboPort"
+        android:inputType = "numberDecimal"
+        android:layout_toRightOf = "@id/p1_zenboPort"
+        android:layout_below = "@id/p1_zenboName"
+        android:hint = "@string/editZenboPort_hint"
+        android:textSize = "@dimen/p1_tsize"
+        android:padding = "@dimen/p1_padding" />
+
+    <Button
+        android:layout_height = "wrap_content"
+        android:layout_width = "wrap_content"
+        android:id = "@+id/finishIpInput"
+        android:text= "@string/finishInput_text"
+        android:textSize = "@dimen/p1_btn_tsize"
+        android:padding = "@dimen/p1_btn_padding"
+        android:layout_alignParentBottom = "true"
+        android:layout_centerHorizontal = "true"
+        android:layout_marginBottom = "@dimen/p1_btn_marginBottom"/>
+
+
+</RelativeLayout>

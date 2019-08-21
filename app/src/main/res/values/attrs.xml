@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="RockerView">
+        <attr name = "viewBackground" format = "color|reference" />
+        <attr name = "rockerStyle" format = "color|reference" />
+        <attr name = "viewRadius" format = "dimension" />
+        <attr name = "rockerRadius" format = "dimension" />
+    </declare-styleable>
+
+</resources>

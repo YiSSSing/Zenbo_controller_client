@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Zenbo_phoneController</string>
+    <string name = "blank"> </string>
+
+    <string name="big_title">Zenbo Controller</string>
+
+    <string name="p1_zenboName_text">Zenbo IP :</string>
+    <string name="p1_zenboPort_text">Zenbo Port :</string>
+
+    <string name="editZenboName_hint">輸入Zenbo IP</string>
+    <string name="editZenboPort_hint">輸入Zenbo Port</string>
+    <string name="finishInput_text">Connect</string>
+
+    <string name = "title">Zenbo Controller</string>
+    <string name = "disconnect_text">Back</string>
+    <string name = "edit_msg_hint">輸入指令</string>
+    <string name = "send_btnText">送出</string>
+
+</resources>
